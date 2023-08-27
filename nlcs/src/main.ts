@@ -266,5 +266,5 @@ interface Event {
 
     const ics = trim(calendar("NLCS 4AL Timetables", `${a}\n${b}`))
     console.log(ics)
-    fs.writeFileSync("../../pages/docs/nlcs-2023-4al.ics", ics)
+    fs.writeFileSync("../docs/nlcs-2023-4al.ics", ics)
 })()
